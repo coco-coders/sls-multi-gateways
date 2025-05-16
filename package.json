@@ -8,8 +8,8 @@
     "build/**/*"
   ],
   "scripts": {
-    "build": "run npm clean && tsc",
-    "clean": "rmdir /s build",
+    "build": "npm run clean && tsc",
+    "clean": "rmdir /s /q build",
     "pub": "npm version patch && npm run build && npm publish",
     "dev": "ts-node src/index.ts",
     "prepare": "npm run build"
