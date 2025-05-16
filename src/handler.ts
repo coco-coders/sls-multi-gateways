@@ -45,7 +45,7 @@ const runProxy = (services: Service[], httpPort: number, stage: string) => {
 	        pathRewrite: (path: string) => {
 	            return stripBasePath ? path.replace(proxyPath, '/') : path;
             },
-            target: `http://localhost:${httpPort + i}/${stage}/`,
+            target: `http://localhost:${httpPort + i}/`,
             changeOrigin: true,
         }));
     }
