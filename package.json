@@ -11,7 +11,8 @@
     "build": "npm run clean && tsc",
     "clean": "rmdir /s /q build",
     "pub": "npm version patch && npm run build && npm publish",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "prepare": "npm i && npm run build"
   },
   "keywords": [],
   "author": "",
