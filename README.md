@@ -1,15 +1,15 @@
-# sls-multi-gateways
-sls-multi-gateways is a tool that allows you to run multiple api gateways under one domain for local development purposes. <br /><br />
+# coco-sls-multi-gateways
+coco-sls-multi-gateways is a tool that allows you to run multiple api gateways under one domain for local development purposes - without putting the stage name in the url. <br /><br />
 [Here is a walkthrough article on medium](https://medium.com/@edisgonuler/run-multiple-serverless-applications-d8b38ef04f37)
 
 ## Installation
-sls-multi-gateways needs to be installed globally using the following command:
+coco-sls-multi-gateways needs to be installed globally using the following command:
 ```bash
-npm install -g sls-multi-gateways
+npm install -g coco-sls-multi-gateways
 ```
 
 ## Usage
-After installing sls-multi-gateways, cd into your project directory
+After installing coco-sls-multi-gateways, cd into your project directory
 ```bash
 cd [project-directory]
 ```
